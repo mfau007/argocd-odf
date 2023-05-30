@@ -13,14 +13,7 @@ apps:
     path: odf/
     autosync: false
     namespace: openshift-storage
-  deploy-lso:
-    branch: main
-    enabled: true
-    path: lso/
-    autosync: false
-    namespace: openshift-local-storage
 namespaces:
-  - openshift-local-storage
   - openshift-storage
   - openshift-machine-api
   - openshift-operators
